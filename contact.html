@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <title>VITCC | Contact</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background-image: linear-gradient(
+            rgba(255, 20, 188, 0.094),
+            rgba(199, 46, 255, 0.137)
+          ),
+          url(./media/bg4.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        backdrop-filter: blur(8px);
+      }
+    </style>
+    <!-- Navbar -->
+    <header class="header-area">
+      <!--------- Navbar------------------  -->
+      <navbar>
+        <div class="navbar-area">
+          <div class="container">
+            <nav class="site-navbar">
+              <!-- site logo -->
+              <a href="./index.html" class="site-logo"
+                ><img src="./media/vit-logo.png"
+              /></a>
+
+              <!-- site menu/nav -->
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+              </ul>
+
+              <!-- nav-toggler for mobile version only -->
+              <button class="nav-toggler">
+                <span></span>
+              </button>
+            </nav>
+          </div>
+        </div>
+      </navbar>
+    </header>
+    <!--  -->
+    <section class="container container-c">
+      <div>
+        <div class="contact-table">
+          <table>
+            <caption>
+              <h3>Contact Details</h3>
+            </caption>
+            <tr>
+              <th>Phone Numbers</th>
+              <th>Email</th>
+              <th>Fax</th>
+            </tr>
+            <tr>
+              <td>9882323423</td>
+              <td>contactvit2@vit.ac.in</td>
+              <td>445 600 434</td>
+            </tr>
+
+            <tr>
+              <td>9882323434</td>
+              <td>contactvit3@vit.ac.in</td>
+              <td>445 600 435</td>
+            </tr>
+
+            <tr>
+              <td>9882323445</td>
+              <td>contactvit4@vit.ac.in</td>
+              <td>445 600 436</td>
+            </tr>
+          </table>
+        </div>
+        <div class="address">
+          <div class="address-text"><h3>Address:</h3></div>
+          <addr>
+            <pre>
+        Vellore Institute of Technology,
+        Vandalur – Kelambakkam Road
+        Chennai, Tamil Nadu – 600 127
+              </pre
+            >
+          </addr>
+        </div>
+
+        <div class="map">
+          <div class="map-cover">
+            <div class="map-text">
+              <h3>Locate Us on Map</h3>
+              <hr />
+              <h6>Navigate Through Map</h6>
+            </div>
+            <div class="map-page">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7558.540591728673!2d80.15494738846473!3d12.842548644259278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5259af8e491f67%3A0x944b42131b757d2d!2sVellore%20Institute%20of%20Technology%20-%20VIT%20Chennai!5e0!3m2!1sen!2sin!4v1676199616319!5m2!1sen!2sin"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+
+    <!-- FOOTER -->
+    <footer id="contact-us">
+      <div class="footer">
+        <div class="contain">
+          <div class="col">
+            <h1>VIT Chennai</h1>
+            <ul>
+              <li>About</li>
+              <li>Mission</li>
+              <li>Services</li>
+              <li>Social</li>
+              <li>Get in touch</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h1>Programs</h1>
+            <ul>
+              <li>Bachelors</li>
+              <li>Masters</li>
+              <li>Ph.D</li>
+              <li>Law</li>
+              <li>Fasion Technology</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h1>Campus</h1>
+            <ul>
+              <li>Vellore</li>
+              <li>Chennai</li>
+              <li>Amravati</li>
+              <li>Bhopal</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h1>Support</h1>
+            <ul>
+              <li>Contact us</li>
+              <li>Fax</li>
+              <li>Email</li>
+            </ul>
+          </div>
+          <div class="col social">
+            <h1>Social</h1>
+            <ul>
+              <li>
+                <img
+                  src="./media/social/1.png"
+                  width="32"
+                  style="width: 32px"
+                />
+              </li>
+              <li>
+                <img
+                  src="./media/social/2.png"
+                  width="32"
+                  style="width: 32px"
+                />
+              </li>
+              <li>
+                <img
+                  src="./media/social/3.png"
+                  width="32"
+                  style="width: 32px"
+                />
+              </li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Navbar JavaScript -->
+    <script>
+      // define all UI variable
+      const navToggler = document.querySelector(".nav-toggler");
+      const navMenu = document.querySelector(".site-navbar ul");
+      const navLinks = document.querySelectorAll(".site-navbar a");
+
+      // load all event listners
+      allEventListners();
+
+      // functions of all event listners
+      function allEventListners() {
+        // toggler icon click event
+        navToggler.addEventListener("click", togglerClick);
+        // nav links click event
+        navLinks.forEach((elem) =>
+          elem.addEventListener("click", navLinkClick)
+        );
+      }
+
+      // togglerClick function
+      function togglerClick() {
+        navToggler.classList.toggle("toggler-open");
+        navMenu.classList.toggle("open");
+      }
+
+      // navLinkClick function
+      function navLinkClick() {
+        if (navMenu.classList.contains("open")) {
+          navToggler.click();
+        }
+      }
+    </script>
+  </body>
+</html>
